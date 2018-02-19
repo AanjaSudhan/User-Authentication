@@ -10,8 +10,10 @@
 .login{
    
     width:300px;
-	background:orange; 
-	margin:200px;
+	background:orange;
+	margin:auto;
+  margin-top:20% ;
+   margin-left:40% ; 
 	position:fixed; 
 	padding:20px;
 
@@ -23,6 +25,7 @@ input[type ="submit"]{
      width:100px;
 	background:blue;
 	color:white;
+	border:none; 
 }
 
 input[type ="submit"]:hover{
@@ -30,6 +33,7 @@ input[type ="submit"]:hover{
 
 	background:red;
 	color:white;
+	border:none; 
 
 	}
 

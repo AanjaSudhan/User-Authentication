@@ -128,11 +128,12 @@ echo "<span style = color:blue> Your account has been activated.. you can log in
 
 <link rel="stylesheet" href="../css/style2.css">
 
-<form  action = "login.php" method ="post" novalidate>
+
 
 <body class="bodylogin">
-<section  class="login">
 
+ <form  action = "login.php" method ="post" novalidate>
+  <section  class="login">
 	<h1>Signin/login</h1>
  <ul>
 
@@ -146,14 +147,14 @@ echo "<span style = color:blue> Your account has been activated.. you can log in
 <div style ="color:blue">
 	<label for = "email">Email</label><br>
  
-	<input type ="text"  name ="email" id = "email" placeholder="Enter your email"><br>
+	<input type ="text"  name ="email" id = "email" placeholder="Enter your email" reqiured><br>
 
 </div>
 
 <div style ="color:blue">
 	<label for ="password">Password</label><br>
 
-	<input type ="password"  name ="password" id ="password" placeholder="Enter your password"><br><br>
+	<input type ="password"  name ="password" id ="password" placeholder="Enter your password" reqiured><br><br>
 
 </div>
 

@@ -120,7 +120,8 @@ if(isset($_POST["addproduct"])){
         echo "<h2>Color</h2><h4>";
             echo  $value["color"]."</h4></br>";
         echo "<h2>Price</h2><h4>";
-            echo  $value["price"]."</h4></br>";   
+            echo  $value["price"]."</h4></br>"; 
+
         }      
 ?>
 

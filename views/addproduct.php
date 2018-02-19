@@ -5,7 +5,7 @@
 <form  action = "home.php" method ="post" novalidate>
 
 <h1>Add Products</h1>
-
+<ul>
 <input type="hidden" name="userid" value= "<?php  echo $_SESSION['userid'];?>">
  
 <div style ="color:blue">
@@ -28,6 +28,6 @@
 </div>
 
   <input type ="submit" name ="addproduct" value = "Add">
-
+</ul>
 </form>
 </body>

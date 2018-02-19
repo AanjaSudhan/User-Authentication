@@ -1,4 +1,4 @@
-
+<link rel="stylesheet" type="text/css" href="../css/style.css">
 
 <?php
 
@@ -202,7 +202,7 @@ if(empty($validateValues)){
 ?>
 
 
-<link rel="stylesheet" href="../css/style.css">
+
 
 <!DOCTYPE html>
 <html>
@@ -220,7 +220,7 @@ if(empty($validateValues)){
 
 	<div style ="color:blue"><br>
   	<label>UserName:</label><br>	
-  	<input type ="text" name="name" value="<?php echo $validateValues["name"]; ?>" placeholder="Enter your name"/><br>
+  	<input type ="text" name="name" value="<?php echo $validateValues["name"]; ?>" placeholder="Enter your name" /><br>
     <?php if(isset($validateError['nameError'])){ ?>
        <div style ="color:red"><?php echo $validateError['nameError']; ?></div>
 
@@ -246,15 +246,53 @@ if(empty($validateValues)){
 
     </div><br>
  
-	<input type ="submit"  value= "Signup/Register" name="signup-form-submitted"/>
+	<input class="submit" type ="submit"  value= "Signup/Register" name="signup-form-submitted"/>
 
  
 	</form>
+ </ul>
 </section>
 </body>
 </html>
-</ul>
 
 
 
+<!-- register -->
+
+<style>
+
+body{
+
+  background-image:url("../img/im3.jpg");
+    background-repeat:no-repeat;
+    background-size:cover; 
+}
+
+.style{
+
+  width:200px;
+  margin:auto;
+  margin-top:20%;
+   margin-left:40%;      
+  background:rgb(80, 117, 175);
+  padding: 50px;
+  position:fixed;
+
+}
+
+.submit{
+
+    background:red;
+    color:white;
+    border:none;
+     font-weight:bold;
+}
+
+.submit:hover{
+
+    background:rgb(255, 227, 17);
+    color:red;
+
+}
+</style>
 

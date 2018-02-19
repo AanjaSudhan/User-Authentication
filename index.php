@@ -24,7 +24,10 @@
 .style{
 	border:2px solid blue;
 	width:200px; 
-	margin:300px;
+	top:50% ;
+	left:40%;
+	right:50%;
+
 	padding:50px;
 	background:lightgreen;
 	position:fixed;
