@@ -1,0 +1,87 @@
+
+/*login*/
+
+.bodylogin{
+
+	background-image:url("../img/img2.jpg");
+    position:fixed; 
+}
+
+.login{
+   
+    width:300px;
+	background:orange; 
+	margin:200px;
+	position:fixed; 
+	padding:20px;
+
+
+	
+}
+
+input[type ="submit"]{
+     width:100px;
+	background:blue;
+	color:white;
+}
+
+input[type ="submit"]:hover{
+     
+
+	background:red;
+	color:white;
+
+	}
+
+/*product*/
+body{
+
+	background:yellow;
+}
+
+
+/*home*/
+.home{
+
+	background-image:url('../img/img4.jpg');
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+a{
+
+	text-decoration: none;
+	background:rgb(126, 44, 193);
+	color:white;
+	padding:10px;
+	border-radius:15px;
+
+}
+a:hover{
+	background:white;
+	color:black;
+}
+
+h1{
+
+	font-family: serif;
+	color:rgb(153, 45, 76);
+	margin-left:20px;
+}
+h2{
+	color:rgb(0, 242, 24);
+	margin:20px;
+}
+
+h3{
+	margin-left:50px;
+	padding: 0;
+}
+h4{
+
+	margin-left:60px;
+}
+
+
+
+

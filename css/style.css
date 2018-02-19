@@ -1,0 +1,28 @@
+
+/*register*/
+
+body{
+
+	background-image:url("../img/im3.jpg");
+    background-repeat:no-repeat;
+    background-size:cover; 
+}
+
+.style{
+
+     width:200px;    
+	background:rgb(80, 117, 175);
+	margin: 200px;
+	padding: 50px;
+	position:fixed;
+
+}
+
+input [type ="submit"]{
+
+    background:red;
+    color:white;
+
+}
+
+
